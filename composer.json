@@ -1,0 +1,21 @@
+{
+    "name": "anovsiradj/bloglite",
+    "description": "Professional Blog",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anovsiradj",
+            "email": "anov.siradj22@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "avm\\": "avm",
+            "avm\\core\\": "avm/avm-core",
+            "avm\\module\\": "avm/avm-module",
+            "avm\\module\\plugin\\": "avm/avm-module/avm-plugin"
+        }
+    },
+    "require": {}
+}
